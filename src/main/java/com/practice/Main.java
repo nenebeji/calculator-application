@@ -9,8 +9,10 @@ public class Main {
         System.out.println("\n c. Multiplication");
         System.out.println("\n d. Division");
 
-        Calculator calculator = new Calculator(7.5, 9);
+        Calculator calculator = new Calculator(7.25, 9.9);
         calculator.add();
         calculator.subtract();
+        calculator.multiply();
+        calculator.divide();
     }
 }
