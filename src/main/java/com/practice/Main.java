@@ -3,7 +3,8 @@ package com.practice;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+     static String option;
+    public static void options() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("\n Hello welcome to the simple calculator app");
         System.out.println("\n What would you like to do? :)");
@@ -11,8 +12,14 @@ public class Main {
         System.out.println("\n b. Subtraction");
         System.out.println("\n c. Multiplication");
         System.out.println("\n d. Division");
-        String option = scanner.nextLine();
+        option = scanner.nextLine();
+    }
 
+    private static void restart(String[] strArr) {
+        main(strArr);
+    }
+    public static void main(String[] args) {
+        options();
         Scanner scannerX = new Scanner(System.in);
         System.out.println("\n Please input your first number");
         double x = scannerX.nextDouble();
@@ -21,14 +28,28 @@ public class Main {
         System.out.println("\n Please input your second number");
         double y = scannerY.nextDouble();
 
-//        System.out.println(x);
-//        System.out.println(y);
-
-
         Calculator calculator = new Calculator(x, y);
-        calculator.add();
-        calculator.subtract();
-        calculator.multiply();
-        calculator.divide();
+        switch (option) {
+            case "a", "A":
+                calculator.add();
+                break;
+
+            case "b", "B":
+                calculator.subtract();
+                break;
+
+            case "c", "C":
+                calculator.multiply();
+                break;
+
+            case "d", "D":
+                calculator.divide();
+                break;
+
+            default:
+                System.out.println("Please select from the options provided");
+                restart(args);
+        }
+
     }
 }

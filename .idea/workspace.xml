@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa12b12d-a184-4eb8-84f9-6dc468a98269" name="Changes" comment="Added scanner obj to main">
+    <list default="true" id="fa12b12d-a184-4eb8-84f9-6dc468a98269" name="Changes" comment="Test scanner obj on Calculator class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699535092894</updated>
-      <workItem from="1699535093856" duration="2874000" />
+      <workItem from="1699535093856" duration="4591000" />
     </task>
     <task id="LOCAL-00001" summary="Added files and class">
       <option name="closed" value="true" />
@@ -151,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699537719868</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Test scanner obj on Calculator class">
+      <option name="closed" value="true" />
+      <created>1699538127084</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699538127084</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +179,7 @@
     <MESSAGE value="testing multiplication and division" />
     <MESSAGE value="Made method void" />
     <MESSAGE value="Added scanner obj to main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added scanner obj to main" />
+    <MESSAGE value="Test scanner obj on Calculator class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test scanner obj on Calculator class" />
   </component>
 </project>
