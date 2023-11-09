@@ -12,9 +12,20 @@ public class Main {
         System.out.println("\n c. Multiplication");
         System.out.println("\n d. Division");
         String option = scanner.nextLine();
-//        System.out.println(option);
 
-        Calculator calculator = new Calculator(7.25, 9.9);
+        Scanner scannerX = new Scanner(System.in);
+        System.out.println("\n Please input your first number");
+        double x = scannerX.nextDouble();
+
+        Scanner scannerY = new Scanner(System.in);
+        System.out.println("\n Please input your second number");
+        double y = scannerY.nextDouble();
+
+//        System.out.println(x);
+//        System.out.println(y);
+
+
+        Calculator calculator = new Calculator(x, y);
         calculator.add();
         calculator.subtract();
         calculator.multiply();
