@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa12b12d-a184-4eb8-84f9-6dc468a98269" name="Changes" comment="Added files and class">
+    <list default="true" id="fa12b12d-a184-4eb8-84f9-6dc468a98269" name="Changes" comment="testing calculator function">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +40,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -42,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699535092894</updated>
-      <workItem from="1699535093856" duration="294000" />
+      <workItem from="1699535093856" duration="2118000" />
     </task>
     <task id="LOCAL-00001" summary="Added files and class">
       <option name="closed" value="true" />
@@ -52,7 +65,63 @@
       <option name="project" value="LOCAL" />
       <updated>1699535205222</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added calculator class">
+      <option name="closed" value="true" />
+      <created>1699535583180</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699535583180</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added system println to test console output">
+      <option name="closed" value="true" />
+      <created>1699535607280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699535607280</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added attributes to calculator class">
+      <option name="closed" value="true" />
+      <created>1699535814066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699535814066</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added constructor">
+      <option name="closed" value="true" />
+      <created>1699535884564</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699535884564</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changed x and y to long">
+      <option name="closed" value="true" />
+      <created>1699535951312</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699535951312</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added calculator functions">
+      <option name="closed" value="true" />
+      <created>1699536247998</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699536247998</updated>
+    </task>
+    <task id="LOCAL-00008" summary="testing calculator function">
+      <option name="closed" value="true" />
+      <created>1699536769784</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699536769784</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -60,6 +129,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added files and class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added files and class" />
+    <MESSAGE value="Added calculator class" />
+    <MESSAGE value="Added system println to test console output" />
+    <MESSAGE value="Added attributes to calculator class" />
+    <MESSAGE value="Added constructor" />
+    <MESSAGE value="changed x and y to long" />
+    <MESSAGE value="added calculator functions" />
+    <MESSAGE value="testing calculator function" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing calculator function" />
   </component>
 </project>

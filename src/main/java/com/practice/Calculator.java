@@ -1,44 +1,52 @@
 package com.practice;
 
 public class Calculator {
-    private long x;
-    private long y;
+    private double x;
+    private double y;
 
-    public Calculator(long x, long y) {
+    public Calculator(double x, double y) {
         this.x = x;
         this.y = y;
     }
 
-    public long getX() {
+    public double getX() {
         return x;
     }
 
-    public void setX(long x) {
+    public void setX(double x) {
         this.x = x;
     }
 
-    public long getY() {
+    public double getY() {
         return y;
     }
 
-    public void setY(long y) {
+    public void setY(double y) {
         this.y = y;
     }
 
-    public long add() {
-        return x + y;
+    public double add() {
+        double r = x + y;
+        System.out.println(r);
+        return r;
     }
 
-    public long subtract() {
-        return x - y;
+    public double subtract() {
+        double r = x - y;
+        System.out.println(r);
+        return r;
     }
 
-    public long multiply() {
-        return x * y;
+    public double multiply() {
+        double r = x * y;
+        System.out.println(r);
+        return r;
     }
 
-    public long divide() {
-        return x/y;
+    public double divide() {
+        double r = x/y;
+        System.out.println(r);
+        return r;
     }
 
 
