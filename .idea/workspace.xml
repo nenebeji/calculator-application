@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa12b12d-a184-4eb8-84f9-6dc468a98269" name="Changes" comment="Test scanner obj on Calculator class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="fa12b12d-a184-4eb8-84f9-6dc468a98269" name="Changes" comment="Finalised calculator app" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +40,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -54,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699535092894</updated>
-      <workItem from="1699535093856" duration="4591000" />
+      <workItem from="1699535093856" duration="4893000" />
     </task>
     <task id="LOCAL-00001" summary="Added files and class">
       <option name="closed" value="true" />
@@ -160,11 +158,30 @@
       <option name="project" value="LOCAL" />
       <updated>1699538127084</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Finalised calculator app">
+      <option name="closed" value="true" />
+      <created>1699539716213</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699539716214</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added files and class" />
@@ -180,6 +197,7 @@
     <MESSAGE value="Made method void" />
     <MESSAGE value="Added scanner obj to main" />
     <MESSAGE value="Test scanner obj on Calculator class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test scanner obj on Calculator class" />
+    <MESSAGE value="Finalised calculator app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalised calculator app" />
   </component>
 </project>
