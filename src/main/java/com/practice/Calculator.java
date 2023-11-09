@@ -25,19 +25,19 @@ public class Calculator {
         this.y = y;
     }
 
-    public long add(long x, long y) {
+    public long add() {
         return x + y;
     }
 
-    public long subtract(long x, long y) {
+    public long subtract() {
         return x - y;
     }
 
-    public long multiply(long x, long y) {
+    public long multiply() {
         return x * y;
     }
 
-    public long divide(long x, long y) {
+    public long divide() {
         return x/y;
     }
 

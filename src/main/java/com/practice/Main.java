@@ -8,5 +8,7 @@ public class Main {
         System.out.println("\n b. Subtraction");
         System.out.println("\n c. Multiplication");
         System.out.println("\n d. Division");
+
+        Calculator calculator = new Calculator(7, 9);
     }
 }
