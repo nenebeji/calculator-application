@@ -25,28 +25,24 @@ public class Calculator {
         this.y = y;
     }
 
-    public double add() {
+    public void add() {
         double r = x + y;
         System.out.println(r);
-        return r;
     }
 
-    public double subtract() {
+    public void subtract() {
         double r = x - y;
         System.out.println(r);
-        return r;
     }
 
-    public double multiply() {
+    public void multiply() {
         double r = x * y;
         System.out.println(r);
-        return r;
     }
 
-    public double divide() {
+    public void divide() {
         double r = x/y;
         System.out.println(r);
-        return r;
     }
 
 
