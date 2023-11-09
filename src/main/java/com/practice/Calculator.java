@@ -1,12 +1,13 @@
 package com.practice;
 
 public class Calculator {
-    private int x;
-    private int y;
+    private long x;
+    private long y;
 
-    public Calculator(int x, int y) {
+    public Calculator(long x, long y) {
         this.x = x;
         this.y = y;
     }
+
 
 }
